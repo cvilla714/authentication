@@ -2,7 +2,9 @@
 
 # Authentication
 
-> One paragraph statement about the project.
+> The project is based on Authentication, meaning if a user is logged in
+> will have the ability to create a new post, if the user is not logged in
+> he won't be able to
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,46 +12,50 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
+- Ruby
+- Rails
+- Bootstrap
+- SQLite3
 
 ### Prerequisites
 
+- Ruby 2.7.0
+- Rails gem
+- Bundle
+
 ### Setup
 
-### Install
+- Open your terminal and go to the directory where you want to clone the repo.
 
-### Usage
+- Clone the repository to your local machine.
 
-### Run tests
+`git clone git@github.com:cvilla714/authentication.git`
 
-### Deployment
+- Go to the Authenticatio directory.
+
+- `cd authentication`
+
+- Install the necessary gems to run the project.
+
+- run `bundle install`
+  > Also please run this command to run all the migration for the database and have all tables updated and read to use
+- run `rails db:migrate`
+  > Now your environment is ready to run the project. Type:
+  > run `rails server`
 
 ## Authors
 
-👤 **Author1**
+👤 **Elbert Corniel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@elberthcorniell](https://github.com/elberthcorniell)
+- Twitter: [@elberthcorniell](https://twitter.com/elberthcorniell)
+- LinkedIn: [Elbert Corniell](https://www.linkedin.com/in/elbert-corniell-989183159/)
 
-👤 **Author2**
+👤 **Devkc**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@cvilla714](https://github.com/cvilla714)
+- Twitter: [@kckeyti](https://twitter.com/kckeyti)
+- LinkedIn: [Cosmel Villalobos](https://www.linkedin.com/in/cosvilla/)
 
 ## 🤝 Contributing
 
@@ -63,9 +69,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The Odin Project
+- Microverse
+- Rails Guides
 
 ## 📝 License
 
