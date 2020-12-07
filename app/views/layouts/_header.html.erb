@@ -8,13 +8,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
+        <% if !current_user %>
         <%= link_to 'Sign Up',new_user_registration_path,class:"navbar-brand"%>
-          <%# <a class="nav-link active" aria-current="page" href="#">Home</a> %>
+        <%# <a class="nav-link active" aria-current="page" href="#">Home</a> %>
         </li>
         <li class="nav-item">
         <%= link_to 'Log In',new_user_session_path,class:"navbar-brand"%>
-          <%# <a class="nav-link" href="#">Link</a> %>
         </li>
+        <% else %>
+        <li class="nav-item">
+        <%= link_to 'Log Out',destroy_user_session_path, method: :delete,class:"navbar-brand"%>
+        </li>
+        <% end %>
         
       </ul>
     </div>
