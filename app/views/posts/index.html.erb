@@ -1,5 +1,3 @@
-<p id="notice"><%= notice %></p>
-
 <h1>Posts</h1>
 
 <table class="table table-striped table-hover table-bordered">
@@ -7,22 +5,12 @@
     <tr>
       <th>Title</th>
       <th>Body</th>
-      <% if current_user %>
-      <th>Author</th>
-      <% end %>
+      <%= render 'author_present'%>
     </tr>
   </thead>
 
   <tbody>
-    <% @posts.each do |post| %>
-      <tr>
-        <td><%= post.title %></td>
-        <td><%= post.body %></td>
-        <% if current_user %>
-        <td><%= post.user.name %></td>
-        <% end %>
-      </tr>
-    <% end %>
+  <%= render 'user_present'%>
   </tbody>
 </table>
 
