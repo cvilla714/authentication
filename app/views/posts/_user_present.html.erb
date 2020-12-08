@@ -1,0 +1,9 @@
+<% @posts.each do |post| %>
+  <tr>
+    <td><%= post.title %></td>
+    <td><%= post.body %></td>
+    <% if current_user %>
+    <td><%= post.user.name %></td>
+    <% end %>
+  </tr>
+<% end %>
