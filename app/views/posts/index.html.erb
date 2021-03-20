@@ -1,0 +1,19 @@
+<h1>Posts</h1>
+
+<table class="table table-striped table-hover table-bordered">
+  <thead class="thread-dark">
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+      <%= render 'author_present'%>
+    </tr>
+  </thead>
+
+  <tbody>
+  <%= render 'user_present'%>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post', new_post_path %>
