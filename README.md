@@ -6,7 +6,7 @@
 > will have the ability to create a new post, if the user is not logged in
 > he won't be able to
 
-![screenshot](./app_screenshot.png)
+![screenshot](./authentication.png)
 
 Additional description about the project and its features.
 
@@ -15,7 +15,7 @@ Additional description about the project and its features.
 - Ruby
 - Rails
 - Bootstrap
-- SQLite3
+- PostgreSQL
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ Additional description about the project and its features.
 - Twitter: [@elberthcorniell](https://twitter.com/elberthcorniell)
 - LinkedIn: [Elbert Corniell](https://www.linkedin.com/in/elbert-corniell-989183159/)
 
-👤 **Devkc**
+👤 **Cosmel Villalobos**
 
 - Github: [@cvilla714](https://github.com/cvilla714)
 - Twitter: [@kckeyti](https://twitter.com/kckeyti)
