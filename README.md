@@ -17,6 +17,10 @@ Additional description about the project and its features.
 - Bootstrap
 - PostgreSQL
 
+## Live Demo
+
+- [Live Demo Link](https://thawing-headland-81902.herokuapp.com/)
+
 ### Prerequisites
 
 - Ruby 2.7.0
